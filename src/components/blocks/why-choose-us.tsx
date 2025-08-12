@@ -3,7 +3,7 @@ import { CardSpotlightDemo } from '../sm-blocks/Card-spt'
 
 const WhyChooseUs = () => {
   return (
-    <div className='flex flex-col gap-16 my-20 bg-gradient-to-b from-emerald-900 via-emerald-800 to-gray-900 py-12'>
+    <div className='flex flex-col mx-12 gap-16 my-20 bg-gradient-to-b from-emerald-900 via-emerald-800 to-gray-900 py-12'>
       <h1 className='text-5xl bg-gradient-to-r from-emerald-400 to-green-600 bg-clip-text text-transparent font-bold'>Why Choose Us</h1>
       <div className='grid grid-cols-1 place-items-center lg:grid-cols-2 gap-4'>
         <CardSpotlightDemo title= "Premium Quality" description="We use the finest fabrics and precise stitching for lasting comfort." />
