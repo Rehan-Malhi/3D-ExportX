@@ -1,16 +1,24 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight";
+import Image from "next/image";
 
 type MyCardProps = {
   title: string;
   description: string;
+  src : string
 };
 
-export function CardSpotlightDemo({ title, description }: MyCardProps) {
+export function CardSpotlightDemo({ title, description, src }: MyCardProps) {
   return (
     <CardSpotlight className="h-96 w-96 bg-gray-800/80 border border-emerald-500/30 hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300">
-      <div>
+      <div className="relative w-full h-full flex flex-col items-center justify-center">
         <div className="">
-
+          <Image
+            src={src}
+            alt="Sunset in the mountains"
+            width={184}
+            height={184}
+            className="object-cover text-green-500"
+          />
         </div>
         <p className="text-xl font-bold relative z-20 mt-2 text-white">
           {title}
