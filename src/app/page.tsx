@@ -1,7 +1,7 @@
 import { FloatingNavDemo } from "@/components/blocks/Navbar";
 import { HeroSectionOne } from "@/components/blocks/Hero";
 import FeaturedCards from "@/components/blocks/FeaturedCards";
-import WhyChooseUs from "@/components/blocks/why-choose-us";
+import WhyChooseExportX from "@/components/blocks/why-choose-us";
 import Testimonials from "@/components/blocks/Testimonials";
 import Footer from "@/components/blocks/Footer";
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <FloatingNavDemo />
       <HeroSectionOne />
       <FeaturedCards />
-      <WhyChooseUs />
+      <WhyChooseExportX />
       <Testimonials />
       <Footer/>
     </main>
