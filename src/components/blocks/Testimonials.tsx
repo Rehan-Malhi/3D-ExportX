@@ -40,7 +40,7 @@ const Testimonials = () => {
               transition: { staggerChildren: 0.15 }
             }
           }}
-          className="grid gap-10 md:grid-cols-2"
+          className="grid md:grid-cols-2"
         >
           {[1, 2].map((_, i) => (
             // @ts-expect-error Next.js export * warning
